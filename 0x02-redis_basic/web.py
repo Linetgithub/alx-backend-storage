@@ -2,8 +2,6 @@
 """
 Caching request module
 """
-import redis
-import requests
 from functools import wraps
 from typing import Callable
 
